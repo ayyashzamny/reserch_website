@@ -614,7 +614,7 @@ section.section { padding: 4rem 0; }
   background: var(--gradient-primary);
   padding: 2px;
 }
-.avatar-inner {
+.avatar-inner, .avatar-photo {
   width: 100%; height: 100%;
   border-radius: 9999px;
   background: hsl(var(--card));
@@ -622,6 +622,7 @@ section.section { padding: 4rem 0; }
   font-family: 'Space Grotesk', sans-serif;
   font-weight: 700;
   font-size: 1.5rem;
+  object-fit: cover;
 }
 .team-card h3 { font-size: 1.1rem; line-height: 1.2; }
 .team-id { font-family: 'JetBrains Mono', monospace; font-size: 0.69rem; text-transform: uppercase; letter-spacing: 0.18em; color: hsl(var(--primary)); margin-top: 0.25rem; }
